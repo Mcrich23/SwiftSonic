@@ -10,7 +10,7 @@ Om builds iOS apps and Siri Shortcuts, studies at USC, and organizes Swift Angel
 
 ### The Shortcut to Siri’s Heart
 
-**Sunday, November 22, 10:45 AM – 11:45 AM CST.** <doc:Sunday>.
+**<doc:Sunday>, 10:45 AM – 11:45 AM CST.**
 
 Also in this session: **From Idea to iPhone: Build and Ship with AltStore**, by <doc:maddie-mccarthy>.
 

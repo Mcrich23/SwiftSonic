@@ -10,7 +10,7 @@ Daniel writes and teaches about Swift, SwiftUI, and software design.
 
 ### Breathe
 
-**Saturday, November 21, 11:15 AM – 12:15 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 11:15 AM – 12:15 PM CST.**
 
 Also in this session: **Inside My Swift Student Challenge Journey**, by <doc:abhigyan-jaiswal>.
 

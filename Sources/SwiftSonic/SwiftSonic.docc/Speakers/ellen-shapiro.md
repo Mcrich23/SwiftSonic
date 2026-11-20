@@ -10,7 +10,7 @@ Ellen is an engineer at Figma and the founder of Designated Nerd Software.
 
 ### Surrender (But Don’t Give Yourself Away)
 
-**Saturday, November 21, 1:25 PM – 2:25 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 1:25 PM – 2:25 PM CST.**
 
 Also in this session: **Decide What to Be and Go Be It**, by <doc:tyler-hillsman>.
 

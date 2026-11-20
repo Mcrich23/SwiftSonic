@@ -10,7 +10,7 @@ Paolo is a product designer and creative technologist working on human-centered 
 
 ### The Song Is Bigger Than the Stage
 
-**Friday, November 20, 2:30 PM – 3:30 PM CST.** <doc:Friday>.
+**<doc:Friday>, 2:30 PM – 3:30 PM CST.**
 
 Also in this session: **Why Saying “I Don’t Know” Is Your Biggest Superpower**, by <doc:ben-freiband>.
 

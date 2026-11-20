@@ -10,7 +10,7 @@ Danijela is an independent iOS developer building Nunch, a calorie tracking app.
 
 ### Building an AI Chat Assistant with PCC
 
-**Sunday, November 22, 9:15 AM – 10:15 AM CST.** <doc:Sunday>.
+**<doc:Sunday>, 9:15 AM – 10:15 AM CST.**
 
 Also in this session: **Lessons from an App Store Reject**, by <doc:danielle-lewis>.
 

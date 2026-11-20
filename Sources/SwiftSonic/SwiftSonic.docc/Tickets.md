@@ -1,10 +1,10 @@
 # Check-in and tickets
 
-Find your ticket, check arrival times, or contact the organizers.
+Friday registration opens at 8:00 AM.
 
 ## Your ticket
 
-[Find your ticket or order confirmation](https://lookup.tito.io/).
+[Find your ticket confirmation](https://lookup.tito.io/).
 
 For new bookings, [check prices and availability on Tito](https://ti.to/swiftsonic/swiftsonic-26). A three-day pass covers the talks and community activities.
 

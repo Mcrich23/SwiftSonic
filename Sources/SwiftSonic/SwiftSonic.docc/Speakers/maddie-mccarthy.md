@@ -10,7 +10,7 @@ Maddie leads partnerships at AltStore, working with developers on indie apps and
 
 ### From Idea to iPhone: Build and Ship with AltStore
 
-**Sunday, November 22, 10:45 AM – 11:45 AM CST.** <doc:Sunday>.
+**<doc:Sunday>, 10:45 AM – 11:45 AM CST.**
 
 Also in this session: **The Shortcut to Siri’s Heart**, by <doc:om-chachad>.
 

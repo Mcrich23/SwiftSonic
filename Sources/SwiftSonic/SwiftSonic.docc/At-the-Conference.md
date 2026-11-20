@@ -30,12 +30,10 @@ Expo and networking periods overlap with lunch. Ask the conference team about di
 2100 West End Avenue, Nashville, Tennessee  
 [Open directions](https://www.google.com/maps/search/?api=1&query=Loews%20Nashville%20Hotel%20at%20Vanderbilt%20Plaza)
 
-See <doc:Nashville> for food, music, and places to visit between sessions.
+See <doc:Nashville> for places to eat and visit nearby.
 
 ## Help on site
 
 Ask the conference team for room directions, Wi-Fi details, accessibility help, or changes to the schedule. You can also email [info@swiftsonicconf.com](mailto:info@swiftsonicconf.com).
 
 For hotel reservation questions, contact [leslie@swiftsonicconf.com](mailto:leslie@swiftsonicconf.com).
-
-[Official schedule](https://swiftsonicconf.com/#setlist)

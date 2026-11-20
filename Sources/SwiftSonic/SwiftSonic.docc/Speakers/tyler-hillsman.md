@@ -10,7 +10,7 @@ Tyler created Sticky Widgets, Pennant, and KeepCount. He combines engineering le
 
 ### Decide What to Be and Go Be It
 
-**Saturday, November 21, 1:25 PM – 2:25 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 1:25 PM – 2:25 PM CST.**
 
 Also in this session: **Surrender (But Don’t Give Yourself Away)**, by <doc:ellen-shapiro>.
 

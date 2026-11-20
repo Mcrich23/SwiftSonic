@@ -2,10 +2,6 @@
 
 Food, music, museums, and places to explore between sessions.
 
-## Overview
-
-Local food, music, and attractions.
-
 ## Eat & drink
 
 - [Hattie B’s Hot Chicken](https://www.google.com/maps/search/?api=1&query=Hattie+B%27s+Hot+Chicken+Midtown+Nashville)

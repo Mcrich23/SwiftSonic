@@ -10,7 +10,7 @@ Mikaela is a senior iOS engineer at M1 and a member of the Swift Ecosystem Steer
 
 ### What is iOS Development?
 
-**Friday, November 20, 11:05 AM – 12:05 PM CST.** <doc:Friday>.
+**<doc:Friday>, 11:05 AM – 12:05 PM CST.**
 
 Presenting with <doc:montana-braswell>.
 

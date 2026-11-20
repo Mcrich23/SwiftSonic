@@ -10,7 +10,7 @@ Montana is a junior iOS developer.
 
 ### What is iOS Development?
 
-**Friday, November 20, 11:05 AM – 12:05 PM CST.** <doc:Friday>.
+**<doc:Friday>, 11:05 AM – 12:05 PM CST.**
 
 Presenting with <doc:mikaela-caron>.
 

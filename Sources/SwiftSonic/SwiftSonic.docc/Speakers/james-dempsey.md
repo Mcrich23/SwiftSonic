@@ -10,7 +10,7 @@ James develops and teaches Swift, iOS, and macOS. He also leads James Dempsey an
 
 ### Go Wide and Go Deep
 
-**Saturday, November 21, 4:00 PM – 5:00 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 4:00 PM – 5:00 PM CST.**
 
 Presenting with <doc:john-haney>.
 

@@ -10,7 +10,7 @@ Abhigyan studies computer science with a focus on artificial intelligence and ma
 
 ### Inside My Swift Student Challenge Journey
 
-**Saturday, November 21, 11:15 AM – 12:15 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 11:15 AM – 12:15 PM CST.**
 
 Also in this session: **Breathe**, by <doc:daniel-steinberg>.
 

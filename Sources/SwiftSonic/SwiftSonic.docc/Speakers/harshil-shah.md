@@ -10,7 +10,7 @@ Harshil builds Peak, a fitness dashboard for iPhone, iPad, and Apple Watch, and 
 
 ### A Brief History of Time
 
-**Saturday, November 21, 9:45 AM – 10:45 AM CST.** <doc:Saturday>.
+**<doc:Saturday>, 9:45 AM – 10:45 AM CST.**
 
 Also in this session: **A Thousand No’s for Every Yes: Building Products in the Age of Infinite Possibilities**, by <doc:malin-sundberg>.
 

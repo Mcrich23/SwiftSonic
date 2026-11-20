@@ -18,7 +18,7 @@ All times are Nashville local time.
 2100 West End Avenue, Nashville, Tennessee  
 [Directions](https://www.google.com/maps/search/?api=1&query=Loews%20Nashville%20Hotel%20at%20Vanderbilt%20Plaza)
 
-Friday registration opens at **8:00 AM**. [Ticket lookup](https://lookup.tito.io/).
+Friday registration opens at **8:00 AM**. [Find your ticket confirmation](https://lookup.tito.io/).
 
 For help on site, ask the conference team or email [info@swiftsonicconf.com](mailto:info@swiftsonicconf.com).
 

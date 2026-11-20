@@ -4,7 +4,7 @@ Talks, meals, and breaks for Saturday.
 
 ## Schedule
 
-<doc:Friday> · <doc:Saturday> · <doc:Sunday> · <doc:At-the-Conference>
+<doc:Friday> · <doc:Sunday> · <doc:At-the-Conference>
 
 All times are Nashville local time. Paired talks share a session.
 
@@ -28,4 +28,4 @@ All times are Nashville local time. Paired talks share a session.
 
 **5:30–6:30 PM** with Betsy Langowski, Adrian Eves, and the Bitrig team. Join an informal conversation about Swift and building apps.
 
-[Official schedule](https://swiftsonicconf.com/#setlist) · <doc:Schedule>
+<doc:Schedule>

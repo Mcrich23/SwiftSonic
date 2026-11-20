@@ -10,6 +10,6 @@ Paul created Hacking with Swift and writes books about development across Apple 
 
 ### The End of the Beginning
 
-**Sunday, November 22, 2:45 PM – 3:30 PM CST.** <doc:Sunday>.
+**<doc:Sunday>, 2:45 PM – 3:30 PM CST.**
 
 ![Paul Hudson](paul-hudson.jpg)

@@ -10,7 +10,7 @@ Klemens is an independent developer and two-time Apple Design Award winner. His 
 
 ### The Art of Caring
 
-**Saturday, November 21, 2:55 PM – 3:55 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 2:55 PM – 3:55 PM CST.**
 
 Also in this session: **Building Beyond Mistakes**, by <doc:frank-solleveld>.
 

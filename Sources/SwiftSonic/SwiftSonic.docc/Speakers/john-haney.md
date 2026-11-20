@@ -10,7 +10,7 @@ John builds for visionOS and iOS through Apps From Outer Space. He also writes, 
 
 ### Go Wide and Go Deep
 
-**Saturday, November 21, 4:00 PM – 5:00 PM CST.** <doc:Saturday>.
+**<doc:Saturday>, 4:00 PM – 5:00 PM CST.**
 
 Presenting with <doc:james-dempsey>.
 

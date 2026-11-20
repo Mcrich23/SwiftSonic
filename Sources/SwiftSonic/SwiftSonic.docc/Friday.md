@@ -4,7 +4,7 @@ Talks, meals, and breaks for Friday.
 
 ## Schedule
 
-<doc:Friday> · <doc:Saturday> · <doc:Sunday> · <doc:At-the-Conference>
+<doc:Saturday> · <doc:Sunday> · <doc:At-the-Conference>
 
 All times are Nashville local time. Paired talks share a session.
 
@@ -23,4 +23,4 @@ All times are Nashville local time. Paired talks share a session.
 | 4:00 PM – 5:00 PM | **Hear Me Out: What if Websites Were Just SwiftUI?** — <doc:morris-richman>; **Hear Me Out: Explore Web Monetization for Your iOS App** — <doc:matt-heaney> |
 | 5:00 PM – 6:00 PM | The Festival Grounds: Expo & Networking |
 
-[Official schedule](https://swiftsonicconf.com/#setlist) · <doc:Schedule>
+<doc:Schedule>

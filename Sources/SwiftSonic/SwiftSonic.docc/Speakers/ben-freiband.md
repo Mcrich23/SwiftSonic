@@ -10,7 +10,7 @@ Ben works on Duo Mobile, with an interest in product development and helping oth
 
 ### Why Saying “I Don’t Know” Is Your Biggest Superpower
 
-**Friday, November 20, 2:30 PM – 3:30 PM CST.** <doc:Friday>.
+**<doc:Friday>, 2:30 PM – 3:30 PM CST.**
 
 Also in this session: **The Song Is Bigger Than the Stage**, by <doc:paolo-villanueva>.
 

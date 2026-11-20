@@ -10,7 +10,7 @@ Danielle is an Apple-platform engineer focused on accessibility. She speaks and 
 
 ### Lessons from an App Store Reject
 
-**Sunday, November 22, 9:15 AM – 10:15 AM CST.** <doc:Sunday>.
+**<doc:Sunday>, 9:15 AM – 10:15 AM CST.**
 
 Also in this session: **Building an AI Chat Assistant with PCC**, by <doc:danijela-vrzan>.
 

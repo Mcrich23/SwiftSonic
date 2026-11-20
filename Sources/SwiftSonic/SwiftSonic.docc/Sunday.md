@@ -4,7 +4,7 @@ Talks, meals, and breaks for Sunday.
 
 ## Schedule
 
-<doc:Friday> · <doc:Saturday> · <doc:Sunday> · <doc:At-the-Conference>
+<doc:Friday> · <doc:Saturday> · <doc:At-the-Conference>
 
 All times are Nashville local time. Paired talks share a session.
 
@@ -23,4 +23,4 @@ All times are Nashville local time. Paired talks share a session.
 | 2:45 PM – 3:30 PM | Closing Keynote: **The End of the Beginning** — <doc:paul-hudson> |
 | 3:30 PM – 3:45 PM | Closing Remarks |
 
-[Official schedule](https://swiftsonicconf.com/#setlist) · <doc:Schedule>
+<doc:Schedule>

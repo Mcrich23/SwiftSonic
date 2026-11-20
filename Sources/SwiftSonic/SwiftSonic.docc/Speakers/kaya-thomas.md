@@ -10,7 +10,7 @@ Kaya has worked at Slack and Calm and created Milk Diary, a privacy-first app in
 
 ### Context Engineering & Mobile Development
 
-**Friday, November 20, 1:25 PM – 2:25 PM CST.** <doc:Friday>.
+**<doc:Friday>, 1:25 PM – 2:25 PM CST.**
 
 Also in this session: **AI Accelerated Shader Development**, by <doc:laksh-chakraborty>.
 

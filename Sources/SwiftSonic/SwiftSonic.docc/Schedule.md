@@ -16,7 +16,7 @@ All times are Nashville local time. Paired talks share a session.
 
 For check-in, meals, and on-site help, see <doc:At-the-Conference>.
 
-Join Betsy Langowski, Adrian Eves, and the Bitrig team for Saturday’s open mic, **5:30–6:30 PM**. See <doc:Saturday>.
+Join Betsy Langowski, Adrian Eves, and the Bitrig team for the open mic on <doc:Saturday>, **5:30–6:30 PM**.
 
 ## Topics
 
@@ -25,5 +25,3 @@ Join Betsy Langowski, Adrian Eves, and the Bitrig team for Saturday’s open mic
 - <doc:Friday>
 - <doc:Saturday>
 - <doc:Sunday>
-
-[Official schedule](https://swiftsonicconf.com/#setlist)
