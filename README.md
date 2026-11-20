@@ -65,6 +65,8 @@ npm run dev
 
 The fonts are self-hosted copies of Anton, Barlow Condensed, and Space Mono used by the conference website. Their licenses are in `Styling/fonts`.
 
+Safari uses Apple’s native Smart App Banner for DocB (App Store ID `6736964512`). Its app argument is `com.mcrich.Apple-Documentation://register/swiftsonic.app`.
+
 ## Content
 
 Edit the Markdown files in `Sources/SwiftSonic/SwiftSonic.docc`. Conference information was checked on November 19, 2026. Editorial references and schedule research are kept in `Research.md`, outside the published site. Speaker photos come from the conference website and remain the property of their owners.

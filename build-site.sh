@@ -55,6 +55,7 @@ for page in Path("Build").rglob("*.html"):
     for attribute in ("href", "src"):
         for prefix in ("/swiftsonic/", "/documentation/swiftsonic/"):
             html = html.replace(f'{attribute}="{prefix}', f'{attribute}="{base}{prefix}')
+    html = html.replace('</head>', '<meta name="apple-itunes-app" content="app-id=6736964512, app-argument=com.mcrich.Apple-Documentation://register/swiftsonic.app"></head>')
     page.write_text(html)
 PY
 
@@ -63,6 +64,7 @@ cat > Build/index.html <<HTML
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="apple-itunes-app" content="app-id=6736964512, app-argument=com.mcrich.Apple-Documentation://register/swiftsonic.app">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Swiftsonic 2026</title>
 <link rel="icon" type="image/png" sizes="32x32" href="${base_path}/swiftsonic/favicon-32x32.png">
