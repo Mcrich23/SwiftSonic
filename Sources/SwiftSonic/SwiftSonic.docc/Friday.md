@@ -22,5 +22,6 @@ All times are Nashville local time. Paired talks share a session.
 | 3:30 PM – 4:00 PM | Intermission: Network & Recharge |
 | 4:00 PM – 5:00 PM | **Hear Me Out: What if Websites Were Just SwiftUI?** — <doc:morris-richman>; **Hear Me Out: Explore Web Monetization for Your iOS App** — <doc:matt-heaney> |
 | 5:00 PM – 6:00 PM | The Festival Grounds: Expo & Networking |
+| 5:30 PM – 7:30 PM | **The Workshop Sessions: From AI to Action** with Joe Fabisevich (separate registration) |
 
 <doc:Schedule>
