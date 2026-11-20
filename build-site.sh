@@ -42,12 +42,16 @@ mkdir -p Build/swiftsonic
 cp -R Styling/. Build/swiftsonic/
 python3 - "$base_path" <<'PY'
 from pathlib import Path
+import re
 import sys
 
 base = sys.argv[1]
 for page in Path("Build").rglob("*.html"):
     html = page.read_text()
-    html = html.replace("</head>", '<link rel="stylesheet" href="/swiftsonic/theme.css"></head>')
+    html = re.sub(r'<link\b[^>]*\brel="(?:icon|mask-icon)"[^>]*>', '', html)
+    html = html.replace("</head>", '''<link rel="stylesheet" href="/swiftsonic/theme.css">
+<link rel="icon" type="image/png" sizes="32x32" href="/swiftsonic/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/swiftsonic/apple-touch-icon.png"></head>''')
     for attribute in ("href", "src"):
         for prefix in ("/swiftsonic/", "/documentation/swiftsonic/"):
             html = html.replace(f'{attribute}="{prefix}', f'{attribute}="{base}{prefix}')
@@ -61,6 +65,8 @@ cat > Build/index.html <<HTML
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Swiftsonic 2026</title>
+<link rel="icon" type="image/png" sizes="32x32" href="${base_path}/swiftsonic/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="${base_path}/swiftsonic/apple-touch-icon.png">
 <meta http-equiv="refresh" content="0;url=${base_path}/documentation/swiftsonic/">
 <link rel="canonical" href="${base_path}/documentation/swiftsonic/">
 </head>
