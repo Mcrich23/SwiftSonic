@@ -1,0 +1,210 @@
+@font-face {
+  font-family: Anton;
+  src: url("fonts/anton.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("fonts/barlow-condensed.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/space-mono.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/space-mono-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root, :host {
+  --sonic-paper: #ede6d6;
+  --sonic-ink: #141414;
+  --sonic-red: #d93b1e;
+  --sonic-ox: #8b1a1a;
+}
+
+.sonic-header {
+  background: var(--sonic-ink);
+  color: var(--sonic-paper);
+  border-bottom: 3px solid var(--sonic-ink);
+}
+.sonic-masthead {
+  max-width: 1440px;
+  min-height: 88px;
+  margin-inline: auto;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  box-sizing: border-box;
+}
+.sonic-brand {
+  display: block;
+  flex: 0 0 220px;
+}
+.sonic-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.sonic-edition {
+  font: 600 16px/1.3 "Barlow Condensed", sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.sonic-days {
+  display: flex;
+  gap: 8px;
+  margin-inline-start: auto;
+}
+.sonic-days a {
+  border: 1px solid #6a6051;
+  padding: 9px 14px;
+  font: 600 18px/1.3 "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--sonic-paper);
+  white-space: nowrap;
+}
+.sonic-days a:hover {
+  background: var(--sonic-paper);
+  color: var(--sonic-ink);
+}
+.sonic-days a span {
+  color: #ff987a;
+  margin-inline-start: 4px;
+}
+.sonic-days a:hover span { color: var(--sonic-ox); }
+.sonic-band {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 9px 20px;
+  border-top: 3px solid var(--sonic-paper);
+  background: var(--sonic-red);
+  color: var(--sonic-ink);
+  font: 600 18px/1.2 "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.sonic-header a:focus-visible {
+  outline: 3px solid #ffb69b;
+  outline-offset: 4px;
+}
+
+#app {
+  --typography-html-font: "Space Mono", ui-monospace, monospace;
+  --typography-html-font-mono: "Space Mono", ui-monospace, monospace;
+  --content-table-title-border-width: 2px;
+  --border-radius: 0px;
+}
+#app .documentation-hero {
+  color: var(--sonic-ink);
+  border-bottom: 4px solid var(--sonic-ink);
+  background: var(--sonic-paper);
+  background-image: radial-gradient(#14141416 .5px, transparent .6px);
+  background-size: 4px 4px;
+}
+#app .documentation-hero::before,
+#app .documentation-hero::after,
+#app .documentation-hero .icon { display: none; }
+#app .documentation-hero h1 {
+  font-family: Anton, Impact, sans-serif;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 5vw, 4.8rem);
+  line-height: 1.1;
+  letter-spacing: -.015em;
+  text-transform: uppercase;
+  color: var(--sonic-ink);
+  text-shadow: 2px 2px var(--sonic-red);
+}
+#app .documentation-hero .abstract {
+  font-family: "Space Mono", ui-monospace, monospace;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--sonic-ink);
+}
+#app .documentation-hero .eyebrow {
+  color: var(--sonic-ox);
+  font: 600 1rem/1.4 "Barlow Condensed", sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+#app h2, #app h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: .015em;
+}
+#app h2 { font-size: 2rem; }
+#app h3 { font-size: 1.5rem; }
+#app .doc-content p, #app .doc-content li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+#app .doc-content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .2em;
+}
+#app table {
+  font-size: 1rem;
+  line-height: 1.6;
+  border: 2px solid var(--color-grid);
+}
+#app th {
+  background: var(--sonic-ink);
+  color: var(--sonic-paper);
+  font: 600 1.15rem/1.3 "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+#app th, #app td { padding: 14px 16px; }
+#app td:first-child {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  min-width: 8rem;
+}
+#app tbody tr:nth-child(even) { background: var(--color-fill-secondary); }
+#app td strong {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#app .doc-content img {
+  max-width: min(100%, 460px);
+  border: 3px solid var(--color-grid);
+  filter: grayscale(100%);
+}
+
+@media (max-width: 900px) {
+  .sonic-edition { display: none; }
+}
+@media (max-width: 600px) {
+  .sonic-masthead { flex-wrap: wrap; gap: 14px; padding: 18px 20px 14px; }
+  .sonic-brand { flex-basis: 195px; }
+  .sonic-days { width: 100%; margin: 0; }
+  .sonic-days a { flex: 1; padding: 10px 8px; text-align: center; }
+  .sonic-band { gap: 10px; font-size: 14px; letter-spacing: .025em; }
+  #app .documentation-hero h1 { font-size: 2.5rem; }
+  #app th, #app td { padding: 12px 10px; }
+  #app td:first-child { min-width: 5.7rem; }
+  #app table { font-size: .94rem; }
+}
+@media print {
+  .sonic-header { display: none; }
+  #app .documentation-hero h1 { text-shadow: none; }
+}

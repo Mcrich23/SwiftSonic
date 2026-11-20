@@ -1,0 +1,17 @@
+# Tyler Hillsman
+
+@Metadata {
+    @TitleHeading("Opener")
+}
+
+Tyler created Sticky Widgets, Pennant, and KeepCount. He combines engineering leadership with shipping his own apps.
+
+## Session
+
+### Decide What to Be and Go Be It
+
+**Saturday, November 21, 1:25 PM – 2:25 PM CST.** <doc:Saturday>.
+
+Also in this session: **Surrender (But Don’t Give Yourself Away)**, by <doc:ellen-shapiro>.
+
+![Tyler Hillsman](tyler-hillsman.jpg)
