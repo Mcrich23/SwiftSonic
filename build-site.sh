@@ -11,8 +11,14 @@ base_path="${base_path%/}"
 export CLANG_MODULE_CACHE_PATH="$PWD/.build/ModuleCache"
 export SWIFTPM_MODULECACHE_OVERRIDE="$CLANG_MODULE_CACHE_PATH"
 
-swift package --cache-path .build/cache --config-path .build/config \
-    --security-path .build/security --disable-sandbox dump-symbol-graph
+symbol_graph_output="$(swift package --cache-path .build/cache --config-path .build/config \
+    --security-path .build/security --disable-sandbox dump-symbol-graph)"
+printf '%s\n' "$symbol_graph_output"
+symbol_graph_dir="$(printf '%s\n' "$symbol_graph_output" | sed -n 's/^Files written to //p' | tail -n 1)"
+if [[ ! -f "$symbol_graph_dir/SwiftSonic.symbols.json" ]]; then
+    echo "SwiftPM did not report a symbol graph directory containing SwiftSonic.symbols.json." >&2
+    exit 1
+fi
 
 docc="$(dirname "$(command -v swift)")/docc"
 if [[ ! -x "$docc" ]]; then
@@ -23,7 +29,7 @@ if [[ ! -x "$docc" ]]; then
     exit 1
 fi
 "$docc" convert Sources/SwiftSonic/SwiftSonic.docc \
-    --additional-symbol-graph-dir .build/out/symbolgraph \
+    --additional-symbol-graph-dir "$symbol_graph_dir" \
     --output-path Build \
     --fallback-display-name SwiftSonic \
     --fallback-bundle-identifier com.mcrich.swiftsonic \
