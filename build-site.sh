@@ -11,8 +11,14 @@ base_path="${base_path%/}"
 export CLANG_MODULE_CACHE_PATH="$PWD/.build/ModuleCache"
 export SWIFTPM_MODULECACHE_OVERRIDE="$CLANG_MODULE_CACHE_PATH"
 
-swift package --cache-path .build/cache --config-path .build/config \
-    --security-path .build/security --disable-sandbox dump-symbol-graph
+symbol_graph_output="$(swift package --cache-path .build/cache --config-path .build/config \
+    --security-path .build/security --disable-sandbox dump-symbol-graph)"
+printf '%s\n' "$symbol_graph_output"
+symbol_graph_dir="$(printf '%s\n' "$symbol_graph_output" | sed -n 's/^Files written to //p' | tail -n 1)"
+if [[ ! -f "$symbol_graph_dir/SwiftSonic.symbols.json" ]]; then
+    echo "SwiftPM did not report a symbol graph directory containing SwiftSonic.symbols.json." >&2
+    exit 1
+fi
 
 docc="$(dirname "$(command -v swift)")/docc"
 if [[ ! -x "$docc" ]]; then
@@ -23,7 +29,7 @@ if [[ ! -x "$docc" ]]; then
     exit 1
 fi
 "$docc" convert Sources/SwiftSonic/SwiftSonic.docc \
-    --additional-symbol-graph-dir .build/out/symbolgraph \
+    --additional-symbol-graph-dir "$symbol_graph_dir" \
     --output-path Build \
     --fallback-display-name SwiftSonic \
     --fallback-bundle-identifier com.mcrich.swiftsonic \
@@ -34,6 +40,7 @@ fi
 
 mkdir -p Build/swiftsonic
 cp -R Styling/. Build/swiftsonic/
+cp -R Hosting/. Build/
 python3 - "$base_path" <<'PY'
 from pathlib import Path
 import sys
@@ -41,7 +48,9 @@ import sys
 base = sys.argv[1]
 for page in Path("Build").rglob("*.html"):
     html = page.read_text()
-    html = html.replace("</head>", '<link rel="stylesheet" href="/swiftsonic/theme.css"></head>')
+    html = html.replace("</head>", '''<link rel="stylesheet" href="/swiftsonic/theme.css">
+<meta name="apple-itunes-app" content="app-id=6736964512, app-argument=com.mcrich.Apple-Documentation://register/swiftsonic.app">
+</head>''')
     for attribute in ("href", "src"):
         for prefix in ("/swiftsonic/", "/documentation/swiftsonic/"):
             html = html.replace(f'{attribute}="{prefix}', f'{attribute}="{base}{prefix}')
@@ -55,6 +64,7 @@ cat > Build/index.html <<HTML
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Swiftsonic 2026</title>
+<meta name="apple-itunes-app" content="app-id=6736964512, app-argument=com.mcrich.Apple-Documentation://register/swiftsonic.app">
 <meta http-equiv="refresh" content="0;url=${base_path}/documentation/swiftsonic/">
 <link rel="canonical" href="${base_path}/documentation/swiftsonic/">
 </head>
