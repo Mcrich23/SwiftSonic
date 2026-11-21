@@ -24,10 +24,11 @@ All times are Nashville local time. Paired talks share a session.
 | 2:25 PM – 2:55 PM | Intermission: Network & Recharge |
 | 2:55 PM – 3:55 PM | **Building Beyond Mistakes** — <doc:frank-solleveld>; **The Art of Caring** — <doc:klemens-strasser> |
 | 4:00 PM – 5:00 PM | **Go Wide and Go Deep** — <doc:john-haney> & <doc:james-dempsey> |
-| 5:30 PM – 6:30 PM | **Open Mic Night with Bitrig** — Betsy Langowski, Adrian Eves, and the Bitrig team |
+| 5:00 PM – 7:00 PM | Cash Bar |
+| 5:30 PM – 6:30 PM | **Open Mic Night with Bitrig** — Jacob Xiao, Matt Ricketson, and Kyle Macomber; moderated by Betsy Langowski and Adrian Eves. |
 
 ## Open Mic Night with Bitrig
 
-**5:30–6:30 PM** with Betsy Langowski, Adrian Eves, and the Bitrig team. Join an informal conversation about Swift and building apps.
+**5:30–6:30 PM.** Betsy Langowski and Adrian Eves moderate a conversation with SwiftUI co-creators Jacob Xiao, Matt Ricketson, and Kyle Macomber.
 
 <doc:Schedule>
