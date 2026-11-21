@@ -9,6 +9,8 @@ Swiftsonic takes place at Loews Nashville Hotel at Vanderbilt Plaza.
 
 [Open the venue in Maps](https://www.google.com/maps/search/?api=1&query=Loews%20Nashville%20Hotel%20at%20Vanderbilt%20Plaza)
 
+[View the official 3D venue map](https://swiftsonicconf.com/venue-loews-map.webp) for a view of the hotel and surrounding area.
+
 The hotel is in Vanderbilt / Midtown. See <doc:Nashville> for places to eat and visit nearby.
 
 ## Hotel rooms
